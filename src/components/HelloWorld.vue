@@ -1,22 +1,16 @@
 <template lang="pug">
   .container
-    h3.bla
+    h3
       | {{text}}
 </template>
-
 
 <script>
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      text: "cevaaaaaaa"
+      text: 'Hello World'
     }
   }
 }
 </script>
-
-
-<style lang="scss">
-
-</style>
