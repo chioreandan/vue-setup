@@ -8,12 +8,12 @@
 <script>
 export default {
   methods: {
-    // publish1 () {
-    //   this.$mqtt.publish('smarthome/livingroom', 'message to Sub1')
-    // },
-    // publish2 () {
-    //   this.$mqtt.publish('smarthome/livingroom', 'message to Sub2')
-    // }
+    publish1 () {
+      this.$mqtt.publish('smarthome/livingroom', 'message to Sub1')
+    },
+    publish2 () {
+      this.$mqtt.publish('smarthome/livingroom', 'message to Sub2')
+    }
   },
   mqtt: {
     'smarthome/livingroom' (data, topic) {
